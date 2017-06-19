@@ -78,6 +78,10 @@ The DAO classes contains the query code and directly interacts with the model cl
 * Register refers to ${contextPath}/register and Register controller will validate the form and on click of submit button
 ![1](https://user-images.githubusercontent.com/25045759/27300095-8b7c9ffa-54fc-11e7-8600-7b5feb93bfb2.png)
 
+<img width="338" alt="2 2" src="https://user-images.githubusercontent.com/25045759/27300709-97caf084-54fe-11e7-8275-afacf72fac59.png">
+
+<img width="338" alt="2" src="https://user-images.githubusercontent.com/25045759/27300708-97c8cc6e-54fe-11e7-8c94-844455ce8341.png">
+
 ![4](https://user-images.githubusercontent.com/25045759/27300098-8b829e00-54fc-11e7-8677-5f9ed5a7f117.png)
 
 ![5](https://user-images.githubusercontent.com/25045759/27300097-8b823ef6-54fc-11e7-9985-b881852c36b6.jpg)
