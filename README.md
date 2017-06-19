@@ -14,3 +14,6 @@ This repository includes Java projects
 * Designed a platform of communication between doctors, distributing companies
 (distributors) and the drug manufacturing companies (sales persons) using different work queue requests
 * Generated reports at various levels and  analyzed the percentage of chemical compounds used in the top 10 drugs that showed excellent improvement in patients’ health 
+
+##### Object Model:
+
