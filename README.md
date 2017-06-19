@@ -16,4 +16,6 @@ This repository includes Java projects
 * Generated reports at various levels and  analyzed the percentage of chemical compounds used in the top 10 drugs that showed excellent improvement in patients’ health 
 
 ##### Object Model:
+![obj model](https://user-images.githubusercontent.com/25045759/27306240-e23b21f2-5512-11e7-8a3d-1698acb63ace.jpg)
+
 
