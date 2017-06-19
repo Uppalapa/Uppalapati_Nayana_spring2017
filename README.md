@@ -19,7 +19,7 @@ Main advantages of proposed system
 * Employers can also view the reviews provided by the jobseekers.
 
 ### Use cases
-<img width="550" height="550" alt="usecase 2" src="https://user-images.githubusercontent.com/25045759/27299344-19b283aa-54fa-11e7-809b-52d01ee4ff3c.png">
+<img width="700" height="550" alt="usecase 2" src="https://user-images.githubusercontent.com/25045759/27299344-19b283aa-54fa-11e7-809b-52d01ee4ff3c.png">
 
 ### Actors:
 These are Actors of the system
