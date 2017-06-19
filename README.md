@@ -76,7 +76,6 @@ The DAO classes contains the query code and directly interacts with the model cl
 * As soon as we run the application this is the first page that. Used Velocity concepts to design this screen. We can see Created index.vm used div element to get the grid format
 * Login refers to ${contextPath}/home and login controller will check the login credentials with different roles if they do not match controller will direct to the error page
 * Register refers to ${contextPath}/register and Register controller will validate the form and on click of submit button
-<img width="428" alt="usecase 2" src="https://user-images.githubusercontent.com/25045759/27299344-19b283aa-54fa-11e7-809b-52d01ee4ff3c.png">
 ![1](https://user-images.githubusercontent.com/25045759/27300095-8b7c9ffa-54fc-11e7-8600-7b5feb93bfb2.png)
 
 ![4](https://user-images.githubusercontent.com/25045759/27300098-8b829e00-54fc-11e7-8677-5f9ed5a7f117.png)
