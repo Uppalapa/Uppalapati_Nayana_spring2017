@@ -8,7 +8,7 @@ This repository includes Java projects
 ##### use case diagram:
 <img width="550" height="550" alt="usecase 2" src="https://user-images.githubusercontent.com/25045759/27305825-46cef1f4-5511-11e7-8fa9-9d406e95792b.png">
 
-## Analysis of Efficacy of Drugs that treats Hypothyroidism - Swing application
+## Analysis of Efficacy of Drugs that treats Hypothyroidism - Java Swing application
 
 * Developed a Java application to evaluate the effectiveness of various drugs that treat Hypothyroidism
 * Designed a platform of communication between doctors, distributing companies
