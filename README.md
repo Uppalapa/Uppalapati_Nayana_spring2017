@@ -29,30 +29,18 @@ These are Actors of the system
 *	Registered Jobseeker.
 
 ### Use cases:
-#### Register Account-
-This use case denotes a set of actions required for Employer and Job seeker to register with the application.
-#### Login-
-This use case denotes a set of actions required for Employer and Job seeker to login into the application.
-#### Activate/De-activate Account-
-This use case denotes a set of actions required for admin to activate or de-activate the Employers. Soon after activation or deactivation an Email will be send to particular Employee
-#### View Employers-
-This use case denotes a set of actions required for admin to view the Employers that are registered with the application.
-#### Activate/De-activate Job Post- 
-This use case denotes a set of actions required for Employer to change the status of the Job Post.
-#### View Applicants for a Job Post-
-This use case denotes a set of actions required for Employer to view the list of applicants for a job post.
-#### View Reviews- 
-This use case denotes a set of actions required for Employer to view Reviews provided by the applicants.
-#### View Job Posts-
-This use case denotes a set of actions required for Employer to view all the jobs posted by the Employer.
-#### Search Job Posts-
-This use case denotes a set of actions required for Job Seeker to search available and active jobs.
-#### Apply for Job-
-This use case denotes a set of actions required for Job Seeker to apply for an available job vacancy.
+* *Register Account*- This use case denotes a set of actions required for Employer and Job seeker to register with the application.
+* *Login*- This use case denotes a set of actions required for Employer and Job seeker to login into the application.
+* *Activate/De-activate Account*- This use case denotes a set of actions required for admin to activate or de-activate the Employers. Soon after activation or deactivation an Email will be send to particular Employee
+* *View Employers*- This use case denotes a set of actions required for admin to view the Employers that are registered with the application.
+* *Activate/De-activate Job Post*- This use case denotes a set of actions required for Employer to change the status of the Job Post.
+* *View Applicants for a Job Post*- This use case denotes a set of actions required for Employer to view the list of applicants for a job post.
+* *View Reviews*- This use case denotes a set of actions required for Employer to view Reviews provided by the applicants.
+* *View Job Posts*- This use case denotes a set of actions required for Employer to view all the jobs posted by the Employer.
+* *Search Job Posts*- This use case denotes a set of actions required for Job Seeker to search available and active jobs.
+* *Apply for Job*- This use case denotes a set of actions required for Job Seeker to apply for an available job vacancy.
 #### Add Reviews- 
 This use case denotes a set of actions required for Job Seeker to add Reviews for an organization that can be viewed by the Employer.
-
-
 ### Classes Details
 #### Controller classes: 
 It includes five controller classes
