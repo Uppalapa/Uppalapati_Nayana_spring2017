@@ -72,3 +72,8 @@ The DAO classes contains the query code and directly interacts with the model cl
 *	jobsapplication table holds details of jobs applied by the job seeker like the status and user id, jobid
 *	reviews table: holds the reviews for interview like salary rating, work life, comments, review date etc provided by the jobseeker
 *	users table: holds the personal information of the users like address, emailid, username, password etc
+### Screens
+* As soon as we run the application this is the first page that. Used Velocity concepts to design this screen. We can see Created index.vm used div element to get the grid format
+* Login refers to ${contextPath}/home and login controller will check the login credentials with different roles if they do not match controller will direct to the error page
+* Register refers to ${contextPath}/register and Register controller will validate the form and on click of submit button
+
