@@ -76,4 +76,21 @@ The DAO classes contains the query code and directly interacts with the model cl
 * As soon as we run the application this is the first page that. Used Velocity concepts to design this screen. We can see Created index.vm used div element to get the grid format
 * Login refers to ${contextPath}/home and login controller will check the login credentials with different roles if they do not match controller will direct to the error page
 * Register refers to ${contextPath}/register and Register controller will validate the form and on click of submit button
+<img width="428" alt="usecase 2" src="https://user-images.githubusercontent.com/25045759/27299344-19b283aa-54fa-11e7-809b-52d01ee4ff3c.png">
+![1](https://user-images.githubusercontent.com/25045759/27300095-8b7c9ffa-54fc-11e7-8600-7b5feb93bfb2.png)
+![4](https://user-images.githubusercontent.com/25045759/27300098-8b829e00-54fc-11e7-8677-5f9ed5a7f117.png)
+![5](https://user-images.githubusercontent.com/25045759/27300097-8b823ef6-54fc-11e7-9985-b881852c36b6.jpg)
+![6](https://user-images.githubusercontent.com/25045759/27300096-8b80e812-54fc-11e7-95bf-d2f65d4a1f6f.png)
+![7](https://user-images.githubusercontent.com/25045759/27300101-8b86ab6c-54fc-11e7-9cf2-7cde22842a70.png)
+![8](https://user-images.githubusercontent.com/25045759/27300099-8b84c25c-54fc-11e7-9e49-e53bad198879.png)
+![9](https://user-images.githubusercontent.com/25045759/27300100-8b85aba4-54fc-11e7-9a1b-76a8b1dd66e7.png)
+![10](https://user-images.githubusercontent.com/25045759/27300104-8b8ffdc0-54fc-11e7-9759-5ea452889cca.png)
+![11](https://user-images.githubusercontent.com/25045759/27300105-8b9091fe-54fc-11e7-9fdc-50c043b14e06.png)
+![12](https://user-images.githubusercontent.com/25045759/27300102-8b8ed710-54fc-11e7-83ad-f5c1763d200a.png)
+![13](https://user-images.githubusercontent.com/25045759/27300106-8b913352-54fc-11e7-9801-06b0baaf4bce.png)
+![14](https://user-images.githubusercontent.com/25045759/27300103-8b8f2436-54fc-11e7-91b0-a854f0b2f324.png)
+![15](https://user-images.githubusercontent.com/25045759/27300107-8b93bfd2-54fc-11e7-8c6c-9159eaa566aa.png)
+![16](https://user-images.githubusercontent.com/25045759/27300109-8b9bfb98-54fc-11e7-9a73-4eceec042919.png)
+![17](https://user-images.githubusercontent.com/25045759/27300108-8b9b6c1e-54fc-11e7-8a2a-f49606166a3e.png)
+![18](https://user-images.githubusercontent.com/25045759/27300110-8b9e9d26-54fc-11e7-92d7-0946afc3ddcf.png)
 
