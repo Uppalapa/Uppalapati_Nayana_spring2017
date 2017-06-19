@@ -11,6 +11,7 @@ This repository includes Java projects
 ## Analysis of Efficacy of Drugs that treats Hypothyroidism - Java Swing application
 
 * Developed a Java swing application to evaluate the effectiveness of various drugs that treat Hypothyroidism
+* Developed using singleton design pattern
 * Designed a platform of communication between doctors, distributing companies
 (distributors) and the drug manufacturing companies (sales persons) using different work queue requests
 * Generated reports at various levels and  analyzed the percentage of chemical compounds used in the top 10 drugs that showed excellent improvement in patients’ health 
