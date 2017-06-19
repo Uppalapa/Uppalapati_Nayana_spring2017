@@ -1,0 +1,41 @@
+<html>
+<head>
+<link href="${contextPath}/resources/css/mystyle.css" rel="stylesheet" />
+</head>
+<body>
+	<div>
+		<H1>JobFair.com</H1>
+	</div>
+	<div class="hd">
+		<div class="mtitle"><H4>JobFair.com is an online solution to search & apply for
+						the jobs.</H4></div>
+		<div class="bd">
+			<div>
+						<div class="grid">
+							<div class="grid-login">
+
+								Existing User ? <br/><br/>
+								Please Log on to access the services provided by us. <br/><br/>
+								<a href="${contextPath}/home">LOGIN</a>
+
+							</div>
+							<div class="grid-reg">
+								Haven't registered Yet ? <br/><br/>
+								Please click on the below link to register. <br/><br/>
+								<a href="${contextPath}/register">REGISTER</a>
+							
+							</div>
+						
+						</div>
+                 
+
+					</div>
+					
+		</div>
+		
+	</div>
+	
+</body>
+
+</html>
+
