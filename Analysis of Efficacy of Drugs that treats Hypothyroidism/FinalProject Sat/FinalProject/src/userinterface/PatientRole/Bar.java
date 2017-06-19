@@ -1,0 +1,160 @@
+package userinterface.PatientRole;
+
+/*
+ * To change this license header, choose License Headers in Project Properties.
+ * To change this template file, choose Tools | Templates
+ * and open the template in the editor.
+ */
+
+import java.awt.MultipleGradientPaint;
+import java.awt.Color;
+import java.awt.LinearGradientPaint;
+import javax.swing.JPanel;
+
+import org.jfree.chart.ChartFactory;
+import org.jfree.chart.ChartPanel;
+import org.jfree.chart.JFreeChart;
+import org.jfree.chart.plot.CategoryPlot;
+import org.jfree.chart.plot.PlotOrientation;
+import org.jfree.chart.renderer.category.BarRenderer;
+import org.jfree.chart.renderer.category.StandardBarPainter;
+import org.jfree.data.category.CategoryDataset;
+import org.jfree.data.category.DefaultCategoryDataset;
+import org.jfree.data.general.DefaultPieDataset;
+
+/**
+ * A simple demonstration application showing how to create a pie chart using data from a
+ * {@link DefaultPieDataset}.  This demo also shows an "exploded" section in the chart.
+ *
+ */
+public class Bar extends JPanel {
+
+    /**
+	 * 
+         * 
+	 */
+    public ChartPanel chartPanel;
+
+    public ChartPanel getChartPanel() {
+        return chartPanel;
+    }
+
+    public void setChartPanel(ChartPanel chartPanel) {
+        this.chartPanel = chartPanel;
+    }
+    
+	private static final long serialVersionUID = -1314877738034042129L;
+
+	/**
+     * Default constructor.
+     *
+     * @param title  the frame title.
+     */
+    public Bar(final String title) {
+
+        //super(title);
+        final JFreeChart chart = createChart(createDataset());
+
+        // add the chart to a panel...
+       chartPanel = new ChartPanel(chart);
+        chartPanel.setPreferredSize(new java.awt.Dimension(500, 270));
+        pushChartPanel(chartPanel);
+      //  setContentPane(chartPanel);
+
+    }
+
+    /**
+     * Creates a sample dataset.
+     * 
+     * @return a sample dataset.
+     */
+    private CategoryDataset createDataset() {
+    	DefaultCategoryDataset dataset = new DefaultCategoryDataset();
+        dataset.setValue(10, "X", "A");
+        dataset.setValue(8,  "X", "B");
+        dataset.setValue(6,  "X", "C");
+        dataset.setValue(12, "X", "D");
+        dataset.setValue(9,  "X", "E");
+        dataset.setValue(11, "X", "F");
+        dataset.setValue(3,  "X", "G");
+        
+    	
+    	
+    	return dataset;
+    	
+    	//dataset.s
+    	
+        //return dataset;
+    }
+    
+
+    private JFreeChart createChart(CategoryDataset dataset) {
+    	//JFreeChart chart = ChartFactory.createXYLineChart("title", "xAxisLabel", "yAxisLabel", dataset, PlotOrientation.VERTICAL, true, true, true);
+
+    	JFreeChart chart = ChartFactory.createBarChart("title", "categoryAxisLabel", "valueAxisLabel", dataset, PlotOrientation.VERTICAL, true, true, true);
+
+    	CategoryPlot plot = chart.getCategoryPlot();
+    	
+    	//plot.setRangeCrosshairPaint(Color.RED);
+    	//plot.setDomainGridlinePaint(Color.RED);
+    	
+    	plot.setRangeGridlinePaint(Color.BLACK);
+    
+    	plot.setBackgroundPaint(Color.WHITE);
+    	
+    	plot.setOutlineVisible(false);
+    	
+    	BarRenderer renderer = (BarRenderer) plot.getRenderer();
+    	
+    	renderer.setGradientPaintTransformer(null);
+    	
+    	
+    	float startX = 0.0f;
+		float startY = 0.0f;
+		float spaceBetweenLines = 6f;
+		Color fg = Color.RED;
+		Color bg = Color.BLUE;
+		LinearGradientPaint gp1 = new LinearGradientPaint(
+	            (float) startX, (float) startY, (float) (startX + spaceBetweenLines), (float) (startY + spaceBetweenLines),
+	            new float[] {0,.1f,.1001f}, new Color[] {fg,fg,bg}, MultipleGradientPaint.CycleMethod.REPEAT);
+    	
+    	/*GradientPaint gp1 = new GradientPaint(
+			7, 7, Color.BLUE,
+			2, 2, Color.BLACK,
+			true
+		);*/
+		renderer.setSeriesPaint(0, gp1);
+    	
+		
+		
+		
+
+
+    	
+    	renderer.setBarPainter(new StandardBarPainter());
+    	
+
+    	
+        return chart;
+        
+    }
+    public static ChartPanel pushChartPanel(ChartPanel cp)
+    {
+        return cp;
+    }
+    
+    /**
+     * Starting point for the demonstration application.
+     *
+     * @param args  ignored.
+     */
+//    public static void main(final String[] args) {
+//
+//        final Bar demo = new Bar("Pie Chart Demo 2");
+//        demo.pack();
+//      //  RefineryUtilities.centerFrameOnScreen(demo);
+//        demo.setVisible(true);
+//
+//    }
+
+}
