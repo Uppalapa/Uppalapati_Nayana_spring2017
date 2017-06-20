@@ -8,8 +8,8 @@ This repository includes Java projects
 ##### use case diagram:
 <img width="550" height="550" alt="usecase 2" src="https://user-images.githubusercontent.com/25045759/27305825-46cef1f4-5511-11e7-8fa9-9d406e95792b.png">
 
-<a href="https://github.com/Uppalapa/Web-Applications/blob/master/OnlineJobPortal/README.md">README</a>
-<a href="https://github.com/Uppalapa/Web-Applications/tree/master/OnlineJobPortal">CODE</a>
+* <a href="https://github.com/Uppalapa/Web-Applications/blob/master/OnlineJobPortal/README.md">README</a>
+* <a href="https://github.com/Uppalapa/Web-Applications/tree/master/OnlineJobPortal">CODE</a>
 
 ## Analysis of Efficacy of Drugs that treats Hypothyroidism - Java Swing application
 
@@ -22,7 +22,7 @@ This repository includes Java projects
 ##### Object Model:
 ![obj model](https://user-images.githubusercontent.com/25045759/27306240-e23b21f2-5512-11e7-8a3d-1698acb63ace.jpg)
 
-<a href="https://github.com/Uppalapa/Web-Applications/blob/master/Analysis%20of%20Efficacy%20of%20Drugs%20that%20treats%20Hypothyroidism/README.md">README</a>
-<a href="https://github.com/Uppalapa/Web-Applications/tree/master/Analysis%20of%20Efficacy%20of%20Drugs%20that%20treats%20Hypothyroidism/FinalProject%20Sat">CODE</a>
+* <a href="https://github.com/Uppalapa/Web-Applications/blob/master/Analysis%20of%20Efficacy%20of%20Drugs%20that%20treats%20Hypothyroidism/README.md">README</a>
+* <a href="https://github.com/Uppalapa/Web-Applications/tree/master/Analysis%20of%20Efficacy%20of%20Drugs%20that%20treats%20Hypothyroidism/FinalProject%20Sat">CODE</a>
 
 
